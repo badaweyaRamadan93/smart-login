@@ -1,0 +1,28 @@
+/* general */
+
+body{
+    background-color: #24353F;
+}
+.form-control:focus{
+    border-color: #17A2B8;
+    box-shadow: 0  0  0.5px #17A2B8;
+}
+input::placeholder {
+    color: rgba(255 , 255 , 255 , 0.8) !important;
+}
+.btn:hover{
+    color: #fff;
+}
+.navbar{
+    background-color: #24353F;
+}
+
+/* media query*/
+@media all and (min-width:500px) and (max-width:991px)
+{
+    .nav-item .btn{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}
